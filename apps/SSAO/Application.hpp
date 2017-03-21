@@ -56,7 +56,7 @@ private:
     GLuint m_GBufferTextures[GBufferTextureCount];
     GLuint m_GBufferFBO; // Framebuffer object
 
-    GBufferTextureType m_CurrentlyDisplayed = GBufferTextureCount; // Default to beauty
+    int32_t m_CurrentlyDisplayed = GBufferTextureCount; // Default to beauty
     
     
     // SSAO FB
@@ -158,6 +158,7 @@ private:
 	GLint m_uScreenSizeLocation;
 	GLint m_uRadiusLocation;
 	GLint m_uBiasLocation;
+    GLint m_uSSAOStrengthLocation;
 	GLint m_uSSAOSamples[64];
 	
 	// SSAO blur pass uniforms
@@ -170,11 +171,11 @@ private:
     float m_DirLightThetaAngleDegrees = 45.f;
     glm::vec3 m_DirLightDirection = computeDirectionVector(glm::radians(m_DirLightPhiAngleDegrees), glm::radians(m_DirLightThetaAngleDegrees));
     glm::vec3 m_DirLightColor = glm::vec3(1, 1, 1);
-    float m_DirLightIntensity = 1.f;
+    float m_DirLightIntensity = 0.f;
 
     glm::vec3 m_PointLightPosition = glm::vec3(0, 1, 0);
     glm::vec3 m_PointLightColor = glm::vec3(1, 1, 1);
-    float m_PointLightIntensity = 5.f;
+    float m_PointLightIntensity = 0.f;
 	
 	bool m_ssao_enabled = true;
 };

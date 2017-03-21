@@ -11,11 +11,9 @@ uniform mat4 uProjMatrix;
 uniform ivec2 uScreenSize;
 uniform float uRadius;
 uniform float uBias;
+uniform float uStrength;
 
-layout(std140) uniform uSamples
-{
-	vec3 samples[KERNEL_SIZE];
-};
+uniform vec3 samples[KERNEL_SIZE];
 
 const vec2 noiseScale = vec2(1280.0/4.0, 720.0/4.0); 
 
@@ -44,11 +42,10 @@ void main()
 		offset.xyz /= offset.w; //Perspective divide
 		offset.xyz  = offset.xyz * 0.5 + 0.5; //Transform to range 0.0 - 1.0  
 
-		float sampleDepth = texture(uGPosition, offset.xy).z; 
-		occlusion += (sampleDepth >= sample.z + uBias ? 1.0 : 0.0);  
+		float sampleDepth = texture(uGPosition, offset.xy).z;
+        float rangeCheck = smoothstep(0.0, 1.0, uRadius / abs(fragPos.z - sampleDepth));
+		occlusion += (sampleDepth >= sample.z + uBias ? 1.0 : 0.0) * rangeCheck;
+	}
 
-		float rangeCheck = smoothstep(0.0, 1.0, uRadius / abs(fragPos.z - sampleDepth));
-		occlusion += (sampleDepth >= sample.z + uBias ? 1.0 : 0.0) * rangeCheck;    
-	}  
-	fColor =  1.0 - (occlusion / KERNEL_SIZE); 
+	fColor =  1.0 - clamp(uStrength * (occlusion / KERNEL_SIZE), 0.0, 1.0);
 }

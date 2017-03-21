@@ -13,15 +13,15 @@ void main() {
 
 	if(uBlur)
 	{
-		for (int x = -2; x < 2; ++x) 
+		for (int x = -1; x <= 1; ++x) 
 		{
-			for (int y = -2; y < 2; ++y) 
+			for (int y = -1; y <= 1; ++y) 
 			{
 				vec2 offset = vec2(float(x), float(y));
 				ssao += texelFetch(uSSAO, ivec2(gl_FragCoord.xy) + ivec2(offset), 0).r;
 			}
 		}
-		ssao /= 16; 
+		ssao /= 9; 
 	}
 	else
 	{

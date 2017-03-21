@@ -24,6 +24,12 @@ GLfloat lerp(GLfloat a, GLfloat b, GLfloat f)
 int Application::run()
 {
     float clearColor[3] = { 0, 0, 0 };
+
+    // Default params for Sponza (warning: scene dependant)
+    float ssaoRadius = 20.f;
+    float ssaoBias = 5.f;
+    float ssaoStrength = 5.f;
+    
     // Loop until the user closes the window
     for (auto iterationCount = 0u; !m_GLFWHandle.shouldClose(); ++iterationCount)
     {
@@ -132,8 +138,9 @@ int Application::run()
 		}
 		
 		glUniformMatrix4fv(m_uProjMatrixLocation, 1, GL_FALSE, glm::value_ptr(projMatrix));
-		glUniform1f(m_uRadiusLocation, 0.5);
-		glUniform1f(m_uBiasLocation, 0.025);
+		glUniform1f(m_uRadiusLocation, ssaoRadius);
+        glUniform1f(m_uBiasLocation, ssaoBias);
+        glUniform1f(m_uSSAOStrengthLocation, ssaoStrength);
 		glUniform2f(m_uScreenSizeLocation, 1280.0, 720.0);
 		
 		glUniform1i(m_uGPositionSSAOSamplerLocation, 0);
@@ -191,7 +198,7 @@ int Application::run()
                 for (int32_t i = GPosition; i < GDepth; ++i)
                 {
                     glActiveTexture(GL_TEXTURE0 + i);
-                    if (GAmbient == i & m_ssao_enabled) {
+                    if (GAmbient == i && m_ssao_enabled) {
 						glBindTexture(GL_TEXTURE_2D, m_SSAOBlurColorBuffer);
 						glUniform1i(m_uGBufferSamplerLocations[i], i);
 						continue;
@@ -246,13 +253,34 @@ int Application::run()
         }
         else
         {
-            // GBuffer display
-            glBindFramebuffer(GL_READ_FRAMEBUFFER, m_GBufferFBO);
-            glReadBuffer(GL_COLOR_ATTACHMENT0 + m_CurrentlyDisplayed);
-            glBlitFramebuffer(0, 0, m_nWindowWidth, m_nWindowHeight,
-                0, 0, m_nWindowWidth, m_nWindowHeight, GL_COLOR_BUFFER_BIT, GL_LINEAR);
+            if (m_CurrentlyDisplayed < GBufferTextureCount)
+            {
+                // GBuffer display
+                glBindFramebuffer(GL_READ_FRAMEBUFFER, m_GBufferFBO);
+                glReadBuffer(GL_COLOR_ATTACHMENT0 + m_CurrentlyDisplayed);
+                glBlitFramebuffer(0, 0, m_nWindowWidth, m_nWindowHeight,
+                    0, 0, m_nWindowWidth, m_nWindowHeight, GL_COLOR_BUFFER_BIT, GL_LINEAR);
 
-            glBindFramebuffer(GL_READ_FRAMEBUFFER, 0);
+                glBindFramebuffer(GL_READ_FRAMEBUFFER, 0);
+            }
+            else if (m_CurrentlyDisplayed == GBufferTextureCount + 1)
+            {
+                glBindFramebuffer(GL_READ_FRAMEBUFFER, m_SSAOFBO);
+                glReadBuffer(GL_COLOR_ATTACHMENT0);
+                glBlitFramebuffer(0, 0, m_nWindowWidth, m_nWindowHeight,
+                    0, 0, m_nWindowWidth, m_nWindowHeight, GL_COLOR_BUFFER_BIT, GL_LINEAR);
+
+                glBindFramebuffer(GL_READ_FRAMEBUFFER, 0);
+            }
+            else
+            {
+                glBindFramebuffer(GL_READ_FRAMEBUFFER, m_SSAOBlurFBO);
+                glReadBuffer(GL_COLOR_ATTACHMENT0);
+                glBlitFramebuffer(0, 0, m_nWindowWidth, m_nWindowHeight,
+                    0, 0, m_nWindowWidth, m_nWindowHeight, GL_COLOR_BUFFER_BIT, GL_LINEAR);
+
+                glBindFramebuffer(GL_READ_FRAMEBUFFER, 0);
+            }
         }
         
 
@@ -292,23 +320,39 @@ int Application::run()
 
             if (ImGui::CollapsingHeader("GBuffer"))
             {
-                for (int32_t i = GPosition; i <= GBufferTextureCount; ++i)
+                for (int32_t i = GPosition; i <= GBufferTextureCount + 2; ++i)
                 {
-                    if (ImGui::RadioButton(m_GBufferTexNames[i], m_CurrentlyDisplayed == i))
-                        m_CurrentlyDisplayed = GBufferTextureType(i);
+                    if (i <= GBufferTextureCount)
+                    {
+                        if (ImGui::RadioButton(m_GBufferTexNames[i], m_CurrentlyDisplayed == i))
+                            m_CurrentlyDisplayed = GBufferTextureType(i);
+                    }
+                    else if (i == GBufferTextureCount + 1)
+                    {
+                        if (ImGui::RadioButton("SSAO color", m_CurrentlyDisplayed == i))
+                            m_CurrentlyDisplayed = i;
+                    }
+                    else
+                    {
+                        if (ImGui::RadioButton("SSAO color blur", m_CurrentlyDisplayed == i))
+                            m_CurrentlyDisplayed = i;
+                    }
                 }
             }
             if (ImGui::CollapsingHeader("SSAO"))
             {
                
-					if (ImGui::RadioButton("enable", m_ssao_enabled == true)) {
-						m_ssao_enabled = true;
-					}
+				if (ImGui::RadioButton("enable", m_ssao_enabled == true)) {
+					m_ssao_enabled = true;
+				}
 						
-					if (ImGui::RadioButton("disable", m_ssao_enabled == false)) {
-						m_ssao_enabled = false;
-					}
+				if (ImGui::RadioButton("disable", m_ssao_enabled == false)) {
+					m_ssao_enabled = false;
+				}
                 
+                ImGui::InputFloat("ssaoRadius", &ssaoRadius);
+                ImGui::InputFloat("ssaoBias", &ssaoBias);
+                ImGui::InputFloat("ssaoStrength", &ssaoStrength);
             }
 
             ImGui::End();
@@ -635,6 +679,7 @@ void Application::initShadersData()
 	m_uScreenSizeLocation = glGetUniformLocation(m_SSAOProgram.glId(), "uScreenSize");
 	m_uRadiusLocation = glGetUniformLocation(m_SSAOProgram.glId(), "uRadius");
 	m_uBiasLocation = glGetUniformLocation(m_SSAOProgram.glId(), "uBias");
+    m_uSSAOStrengthLocation = glGetUniformLocation(m_SSAOProgram.glId(), "uStrength");
 	
 	for (int i = 0; i < 64; ++i) {
 		m_uSSAOSamples[i] = glGetUniformLocation(m_SSAOProgram.glId(), ("samples[" + std::to_string(i) + "]").c_str());
