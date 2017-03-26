@@ -1,0 +1,453 @@
+
+newmtl bed_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Kd bed_01.tga
+map_Ka bed_01.tga
+
+
+newmtl bed_02
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Kd bed_02.tga
+map_Ka bed_02.tga
+
+
+
+
+newmtl binoculars_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Kd binoculars_01.tga
+map_Ka binoculars_01.tga
+map_Bump binoculars_01_nm.tga
+
+
+
+
+newmtl books_02
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka books_02.tga
+map_Kd books_02.tga
+
+
+
+
+newmtl books_03
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka books_03.tga
+map_Kd books_03.tga
+
+
+
+
+newmtl bureau_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka bureau_01.tga
+map_Kd bureau_01.tga
+
+
+
+
+newmtl books_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka books_01.tga
+map_Kd books_01.tga
+
+
+
+
+newmtl bust_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka bust_01.tga
+map_Kd bust_01.tga
+
+
+
+
+newmtl cello_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka cello_01.tga
+map_Kd cello_01.tga
+
+
+
+
+newmtl chair_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka chair_01.tga
+map_Kd chair_01.tga
+
+
+
+
+newmtl clock_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka clock_01.tga
+map_Kd clock_01.tga
+
+
+
+
+newmtl fireplace_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka fireplace_01.tga
+map_Kd fireplace_01.tga
+
+
+
+
+newmtl floor_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka floor_01.tga
+map_Kd floor_01.tga
+
+
+
+
+newmtl paper_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka paper_01.tga
+map_Kd paper_01.tga
+
+
+
+
+newmtl fancyframe_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka fancyframe_01.tga
+map_Kd fancyframe_01.tga
+
+
+
+
+newmtl frames_02
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka frames_02.tga
+map_Kd frames_02.tga
+
+
+
+
+newmtl frames_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka frames_01.tga
+map_Kd frames_01.tga
+
+
+
+
+newmtl hat_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka hat_01.tga
+map_Kd hat_01.tga
+
+
+
+
+newmtl lamp_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka lamp_01.tga
+map_Kd lamp_01.tga
+
+
+
+
+newmtl lamp_02
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka lamp_02.tga
+map_Kd lamp_02.tga
+
+
+
+
+newmtl lamp_03
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka lamp_03.tga
+map_Kd lamp_03.tga
+
+
+
+
+newmtl magazine_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Kd magazine_01.tga
+map_Ka magazine_01.tga
+
+
+
+
+
+newmtl Material #919
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+
+
+
+
+newmtl piano_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka piano_01.tga
+map_Kd piano_01.tga
+
+
+
+
+newmtl pillow_02
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka pillow_02.tga
+map_Kd pillow_02.tga
+
+
+
+
+newmtl pillow_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka pillow_01.tga
+map_Kd pillow_01.tga
+
+
+
+
+newmtl pipe_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka pipe_01.tga
+map_Kd pipe_01.tga
+
+
+
+
+newmtl plate_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka plate_01.tga
+map_Kd plate_01.tga
+
+
+
+
+newmtl rugbyteam_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka rugbyteam_01.tga
+map_Kd rugbyteam_01.tga
+
+
+
+
+newmtl teacup_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka teacup_01.tga
+map_Kd teacup_01.tga
+
+
+
+
+newmtl shelves_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka shelves_01.tga
+map_Kd shelves_01.tga
+
+
+
+
+newmtl sofa_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka sofa_01.tga
+map_Kd sofa_01.tga
+
+
+
+
+newmtl trophy_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka trophy_01.tga
+map_Kd trophy_01.tga
+
+
+
+
+newmtl walls_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka walls_01.tga
+map_Kd walls_01.tga
+
+
+
+
+newmtl window_01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  150.0
+illum 2
+map_Ka window_01.tga
+map_Kd window_01.tga
+
+
+
