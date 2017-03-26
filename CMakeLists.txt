@@ -9,21 +9,21 @@ set(CMAKE_CXX_STANDARD_REQUIRED on)
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
+add_subdirectory(third_party/SDL2-2.0.5)
+add_subdirectory(third_party/assimp-3.3.1)
+
 find_package(OpenGL REQUIRED)
-find_package(SDL2 REQUIRED)
-find_package(GLM REQUIRED)
-find_package(assimp REQUIRED)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 
-add_definitions(-Wall -W -Weffc++)
+#add_definitions(-Wall -W -Weffc++)
 
 include_directories(
     ${OPENGL_INCLUDE_DIRS}
-    ${GLM_INCLUDE_DIRS}
-    ${SDL2_INCLUDE_DIR}
-    ${assimp_INCLUDE_DIR}
+    third_party/glm-0.9.8.3
+    third_party/include
+    third_party/assimp-3.3.1/include
 
     third_party/stb/include
     third_party/glad/include
@@ -47,10 +47,9 @@ add_executable(
 
 target_link_libraries(
     OpenGL_Project
-    ${SDL2_LIBRARY}
+    SDL2
     ${OPENGL_LIBRARIES}
-    ${assimp_LIBRARIES}
-    ${CMAKE_DL_LIBS}
+    assimp
 )
 
 install(

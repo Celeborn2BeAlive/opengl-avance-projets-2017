@@ -1,5 +1,7 @@
 #pragma once
 
+#define NOMINMAX
+
 #include <glad/glad.h>
 #include <glm/glm.hpp>
 #include <glm/gtx/quaternion.hpp>
@@ -65,6 +67,10 @@ public:
         glm::vec3 position = glm::vec3(0);
         glm::vec3 normal = glm::vec3(0);
         glm::vec2 texcoords = glm::vec2(0);
+
+        vertex() = default;
+
+        vertex(glm::vec3 p, glm::vec3 n, glm::vec2 t) : position(p), normal(n), texcoords(t) {}
     };
 
     // Constructor.

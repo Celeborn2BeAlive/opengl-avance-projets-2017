@@ -1,6 +1,7 @@
 #include "Program.hpp"
 #include <fstream>
 #include <sstream>
+#include <iostream>
 
 class Program::Shader {
 public:
@@ -64,6 +65,8 @@ private:
 
             std::vector<char> buffer(length);
             glGetShaderInfoLog(m_identifier, length, 0, buffer.data());
+
+            std::cerr << std::string(buffer.data()) << std::endl;
 
             glDeleteShader(m_identifier);
             m_identifier = 0;

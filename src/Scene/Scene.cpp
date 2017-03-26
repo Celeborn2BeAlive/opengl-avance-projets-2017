@@ -20,8 +20,8 @@ Scene::Scene(std::vector<Object> objects, std::vector<Mesh> meshes, std::vector<
 
     m_size = glm::length(max - min);
     m_center = (max + min) / 2.f;
-    m_camera.near(m_size * 0.01f);
-    m_camera.far(m_size);
+    m_camera.setNear(m_size * 0.01f);
+    m_camera.setFar(m_size);
     // m_camera.far(5.f * m_size);
 }
 

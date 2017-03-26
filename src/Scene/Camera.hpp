@@ -5,7 +5,7 @@
 class Camera {
 public:
     // Constructor.
-    Camera(glm::vec3 eye = glm::vec3(0.f, 0.f, 5.f), glm::vec3 forward = glm::vec3(1.f, 0.f, 0.f), glm::vec3 up = glm::vec3(0.f, 0.f, 1.f), float fov = 70.f, float near = 1.f, float far = 100.f);
+    Camera(glm::vec3 eye = glm::vec3(0.f, 0.f, 5.f), glm::vec3 forward = glm::vec3(1.f, 0.f, 0.f), glm::vec3 up = glm::vec3(0.f, 0.f, 1.f), float fov = 70.f, float near = 1.f, float setFar = 100.f);
 
     // Forward vector.
     glm::vec3 const& forward() const { return m_forward; }
@@ -23,8 +23,8 @@ public:
     void eye(glm::vec3 eye) { m_eye = eye; }
 
     // Near and far.
-    void near(float near) { m_near = near; }
-    void far(float far) { m_far = far; }
+    void setNear(float n) { m_near = n; }
+    void setFar(float f) { m_far = f; }
 
     // Notify a window resize.
     void resize(int width, int height);
