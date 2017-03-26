@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/Debug/third-party/glfw-3.2.1/src/glfw_config.h">
+      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/Debug/third-party/glfw-3.2.1/src/glfw_config.h" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/MinSizeRel/third-party/glfw-3.2.1/src/glfw_config.h">
+      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/MinSizeRel/third-party/glfw-3.2.1/src/glfw_config.h" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/RelWithDebInfo/third-party/glfw-3.2.1/src/glfw_config.h">
+      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/RelWithDebInfo/third-party/glfw-3.2.1/src/glfw_config.h" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/Release/third-party/glfw-3.2.1/src/glfw_config.h">
+      <sourceFolder url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/Release/third-party/glfw-3.2.1/src/glfw_config.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/AppTest/App_Test.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/AppTest/TestApp.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/AppTest/TestApp.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/AppTest/states/TestState.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/AppTest/states/TestState.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/HelloWorld/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/LoggerTest/ConsoleLoggerTest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/Renderer_Test.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/TestApp.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/TestApp.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/Claptrap/CHARACTER_Claptrap.mtl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/Claptrap/ClapTrap_Dif.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/Claptrap/ClapTrap_Nrm.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/Claptrap/Claptrap.obj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/Claptrap/FlashlightFlare_Dif.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/cornell_box.mtl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/cornell_box.obj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/sponza.mtl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/sponza.obj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/Thumbs.db" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/background.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/background_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/background_ddn.tif" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/chain_texture.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/chain_texture_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/chain_texture_mask.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/lion.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/lion2_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/lion_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/spnza_bricks_a_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/spnza_bricks_a_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/spnza_bricks_a_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_arch_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_arch_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_arch_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_ceiling_a_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_ceiling_a_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_column_a_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_column_a_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_column_a_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_column_b_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_column_b_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_column_b_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_column_c_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_column_c_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_column_c_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_curtain_blue_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_curtain_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_curtain_green_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_details_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_details_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_fabric_blue_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_fabric_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_fabric_green_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_fabric_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_flagpole_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_flagpole_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_floor_a_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_floor_a_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_roof_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_thorn_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_thorn_diff.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_thorn_mask.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/sponza_thorn_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/vase_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/vase_dif.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/vase_hanging.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/vase_plant.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/vase_plant_mask.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/vase_plant_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/vase_round.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/vase_round_ddn.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/crytek-sponza/textures/vase_round_spec.tga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/cube.mtl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/cube.obj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/arm_dif.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/arm_showroom_ddn.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/arm_showroom_spec.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/body_dif.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/body_showroom_ddn.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/body_showroom_spec.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/glass_ddn.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/glass_dif.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/hand_dif.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/hand_showroom_ddn.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/hand_showroom_spec.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/helmet_diff.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/helmet_showroom_ddn.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/helmet_showroom_spec.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/leg_dif.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/leg_showroom_ddn.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/leg_showroom_spec.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/nanosuit.blend" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/nanosuit.mtl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/models/nanosuit/nanosuit.obj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/textures/CloudMap.jpg" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/textures/EarthMap.jpg" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/textures/MoonMap.jpg" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/assets/textures/triforce.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/shaders/DepthPass.fs.glsl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/shaders/GeometryPass.fs.glsl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/shaders/GeometryPass.vs.glsl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/shaders/PositionPass.fs.glsl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/shaders/SSAOPass.fs.glsl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/shaders/ShadingPass.fs.glsl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/shaders/ShadingPass.vs.glsl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/states/TestState.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/RendererTest/states/TestState.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/c2ba-assets-directory.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/c2ba-copy-dll-post-build.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/c2ba-glsl-shaders.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Common.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Core.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Core/CoreTypes.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Core/IApp.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Core/ILogger.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Core/IState.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Core/StateManager.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Core/WindowManager.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Core/loggers/ConsoleLogger.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Core/utililty/Clock.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Core/utililty/Time.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Graphics.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Graphics/ModelGeometry.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Graphics/ModelLoader.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/ANGL/Graphics/Renderer.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/GLFWHandle.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/GLProgram.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/GLShader.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/Image2DRGBA.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/ViewController.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/filesystem.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/gl_debug_output.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/glfw.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/glmlv.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/imgui_impl_glfw_gl3.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/load_obj.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/obj_geometry.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/include/glmlv/simple_geometry.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Core/IApp.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Core/ILogger.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Core/IState.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Core/StateManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Core/WindowManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Core/loggers/ConsoleLogger.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Core/utility/Clock.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Core/utility/Time.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Graphics/ModelGeometry.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Graphics/ModelLoader.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/ANGL/Graphics/Renderer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/glmlv/Image2DRGBA.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/glmlv/ViewController.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/glmlv/gl_debug_output.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/glmlv/glmlv.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/glmlv/imgui_impl_glfw_gl3.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/glmlv/load_obj.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/glmlv/obj_geometry.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/src/glmlv/simple_geometry.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glad/src/glad.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/CMake/modules/FindVulkan.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/include/GLFW/glfw3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/include/GLFW/glfw3native.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/context.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/egl_context.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/egl_context.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/glfw3.pc.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/glfw3Config.cmake.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/glfw_config.h.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/glx_context.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/glx_context.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/init.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/input.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/internal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/linux_joystick.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/linux_joystick.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/monitor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/posix_time.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/posix_time.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/posix_tls.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/posix_tls.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/vulkan.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/window.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/x11_init.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/x11_monitor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/x11_platform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/x11_window.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/xkb_unicode.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/xkb_unicode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/imgui-1.49/imgui.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/imgui-1.49/imgui.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/imgui-1.49/imgui_demo.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/imgui-1.49/imgui_draw.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/imgui-impl/imgui_impl_glfw_gl3.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third-party/imgui-impl/imgui_impl_glfw_gl3.hpp" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/Debug/third-party/glfw-3.2.1/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/MinSizeRel/third-party/glfw-3.2.1/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/RelWithDebInfo/third-party/glfw-3.2.1/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/Release/third-party/glfw-3.2.1/src" />
+          <root url="file://$MODULE_DIR$/lib/include" />
+          <root url="file://$MODULE_DIR$/third-party/glad/include" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/include" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src" />
+          <root url="file://$MODULE_DIR$/third-party/glm-0.9.8.3" />
+          <root url="file://$MODULE_DIR$/third-party/imgui-1.49" />
+          <root url="file://$MODULE_DIR$/third-party/imgui-impl" />
+          <root url="file://$MODULE_DIR$/third-party/json-2.0.9" />
+          <root url="file://$MODULE_DIR$/third-party/stb" />
+          <root url="file://$MODULE_DIR$/third-party/tinyobjloader-1.0.5" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/cilk" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/sanitizer" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/Debug/third-party/glfw-3.2.1/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/MinSizeRel/third-party/glfw-3.2.1/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/RelWithDebInfo/third-party/glfw-3.2.1/src" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/Release/third-party/glfw-3.2.1/src" />
+          <root url="file://$MODULE_DIR$/lib/include" />
+          <root url="file://$MODULE_DIR$/third-party/glad/include" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/include" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src" />
+          <root url="file://$MODULE_DIR$/third-party/glm-0.9.8.3" />
+          <root url="file://$MODULE_DIR$/third-party/imgui-1.49" />
+          <root url="file://$MODULE_DIR$/third-party/imgui-impl" />
+          <root url="file://$MODULE_DIR$/third-party/json-2.0.9" />
+          <root url="file://$MODULE_DIR$/third-party/stb" />
+          <root url="file://$MODULE_DIR$/third-party/tinyobjloader-1.0.5" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/cilk" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/sanitizer" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/Debug/third-party/glfw-3.2.1/src/glfw_config.h" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/MinSizeRel/third-party/glfw-3.2.1/src/glfw_config.h" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/RelWithDebInfo/third-party/glfw-3.2.1/src/glfw_config.h" />
+          <root url="file://$USER_HOME$/.clion11/system/cmake/generated/4576663d/4576663d/Release/third-party/glfw-3.2.1/src/glfw_config.h" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/imgui_impl_glfw_gl3.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Core.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/GLProgram.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/simple_geometry.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Core/ILogger.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Core/CoreTypes.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Core/IApp.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Core/WindowManager.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Core/IState.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Core/loggers/ConsoleLogger.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Core/utililty/Time.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Core/utililty/Clock.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/glmlv.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/obj_geometry.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/load_obj.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Common.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Graphics/Renderer.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Graphics/ModelLoader.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Graphics/ModelGeometry.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/filesystem.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/gl_debug_output.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/GLFWHandle.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Graphics.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/ANGL/Core/StateManager.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/Image2DRGBA.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/glfw.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/GLShader.hpp" />
+          <root url="file://$MODULE_DIR$/lib/include/glmlv/ViewController.hpp" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/include/GLFW/glfw3.h" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/include/GLFW/glfw3native.h" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/egl_context.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/vulkan.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/x11_monitor.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/glx_context.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/glfw_config.h.in" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/xkb_unicode.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/xkb_unicode.h" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/posix_time.h" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/context.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/x11_window.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/posix_tls.h" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/egl_context.h" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/x11_init.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/glx_context.h" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/internal.h" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/window.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/glfw3Config.cmake.in" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/posix_time.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/linux_joystick.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/glfw3.pc.in" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/init.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/posix_tls.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/monitor.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/input.c" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/linux_joystick.h" />
+          <root url="file://$MODULE_DIR$/third-party/glfw-3.2.1/src/x11_platform.h" />
+          <root url="file://$MODULE_DIR$/third-party/imgui-1.49/imgui_draw.cpp" />
+          <root url="file://$MODULE_DIR$/third-party/imgui-1.49/imgui.cpp" />
+          <root url="file://$MODULE_DIR$/third-party/imgui-1.49/imgui_demo.cpp" />
+          <root url="file://$MODULE_DIR$/third-party/imgui-1.49/imgui.h" />
+          <root url="file://$MODULE_DIR$/third-party/imgui-impl/imgui_impl_glfw_gl3.hpp" />
+          <root url="file://$MODULE_DIR$/third-party/imgui-impl/imgui_impl_glfw_gl3.cpp" />
+        </excluded>
+      </library>
+    </orderEntry>
+  </component>
+</module>
