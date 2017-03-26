@@ -23,7 +23,7 @@ void TestApp::init()
     ILogger::getLogger()->getStream(SeverityInfo, "TestApp.cpp", __LINE__)
         << "TestApp::init()" << std::endl;
 
-    WindowManager::init("ANGL", 600, 600);
+    WindowManager::init("ANGL", 1280, 720);
     mStateManager.addState(new TestState(this));
 }
 
