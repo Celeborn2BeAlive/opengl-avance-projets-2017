@@ -203,7 +203,7 @@ void Deferred::shadingPass(Scene const& scene) const {
     glUniform3fv(m_ulightint, 1, glm::value_ptr(m_light.intensity()));
 
     glUniformMatrix4fv(m_ulightmvp, 1, false, glm::value_ptr(m_light.viewproj(scene) * glm::inverse(scene.view())));
-    glUniform1f(m_usmbias, 0.01f);
+    glUniform1f(m_usmbias, 0.001f);
     glUniform1i(m_ushadowmap, 5);
     glBindSampler(5, m_samplers[1]);
     glBindTextureUnit(5, m_rsm.texture(RSM::DEPTH));
@@ -217,8 +217,8 @@ void Deferred::shadingPass(Scene const& scene) const {
     glUniform1i(m_ursmflux, 8);
     glBindTextureUnit(8, m_rsm.texture(RSM::FLUX));
 
-    glUniform1ui(m_umaxsamples, 400);
-    glUniform1ui(m_uceil, 40);
+    glUniform1ui(m_umaxsamples, 1024);
+    glUniform1ui(m_uceil, 1024);
 
     glBindVertexArray(m_vao);
     glDrawArrays(GL_TRIANGLES, 0, 3);

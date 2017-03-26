@@ -37,7 +37,7 @@ int main(int, char**) {
 
     // Set lighting.
     // renderer.light(Light(glm::vec3(0.5f, 0.5f, 0.5f), glm::vec3(0.8f, 0.8f, 0.8f)));
-    renderer.light(Light(glm::vec3(0.f, 1.2f, 0.1f), glm::vec3(1.2f, 1.f, 1.f)));
+    renderer.light(Light(glm::vec3(0.f, 1.2f, 0.4f), 16.f * glm::vec3(1.f, 1.f, 1.f)));
     
     // Add camera controller.
     CameraController controller;

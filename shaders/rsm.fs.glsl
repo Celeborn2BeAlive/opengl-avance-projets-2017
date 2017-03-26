@@ -17,5 +17,5 @@ layout(location = 2) out vec3 fFlux;
 void main() {
     fPosition = vViewSpacePosition;
     fNormal = normalize(vViewSpaceNormal);
-    fFlux = 1200000 * uIntensity * uKd * texture(uKdSampler, vTexCoords).rgb;
+    fFlux = uIntensity * uKd * texture(uKdSampler, vTexCoords).rgb;
 }

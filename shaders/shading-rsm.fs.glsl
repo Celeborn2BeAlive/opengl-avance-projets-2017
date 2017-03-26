@@ -112,31 +112,43 @@ void main() {
         // Sample pixels in the RSM.
         vec2 seed = gl_FragCoord.xy;
 
-        int bad = 0, good = 0;
-        for (int i = 0; i < uMaxSamples && good < uCeil; ++ i) {
-            // Generate uniformly distributed values.
-            float e1 = random(seed);
-            seed = vec2(random(seed), random(seed.yx));
-            float e2 = random(seed);
-            seed = vec2(random(seed.xy), random(seed.xx));
+        int N = int(sqrt(float(uMaxSamples)));
+        float deltaN = 1.f / float(N);
 
-            vec2 ilight = (plNDC.xy + e1 * vec2(sin(PI * 2 * e2), cos(PI * 2 * e2))) * size;
+        int trueCount = N * N;
+
+        int bad = 0, good = 0;
+        for (int i = 0; i < trueCount; ++ i) {
+            int x = i % int(N);
+            int y = i / int(N);
+
+            float e1 = deltaN * (float(x) + 0.5);
+            float e2 = deltaN * (float(y) + 0.5);
+
+            vec2 ilight = vec2(e1, e2) * size;
+            vec2 ll = vec2(e1,e2);
             if (ilight.x < 0 || ilight.x >= size.x || ilight.y < 0 || ilight.y >= size.y) {
                 continue;
             }
 
-            // Contribution.
-            vec3 wi = vec3(texelFetch(uRSMPosition, ivec2(ilight), 0)) - position;
+            vec4 pvpl = texelFetch(uRSMPosition, ivec2(ilight), 0);
+            vec3 ni = vec3(texelFetch(uRSMNormal, ivec2(ilight), 0));
+
+            float vplpdf = dot(uLDirection, ni);
+
+            // Contribution
+            vec3 wi = vec3(pvpl) - position;
             float dist = length(wi);
             wi /= dist;
 
-            vec3 ni = vec3(texelFetch(uRSMNormal, ivec2(ilight), 0));
             if (length(ni) < 0.99 || dot(wi, ni) >= 0) {
                 continue;
             }
 
+            vec3 flux = vec3(texelFetch(uRSMFlux, ivec2(ilight), 0));
+
             // Intensity.
-            vec3 li = e1 * e1 * vec3(texelFetch(uRSMFlux, ivec2(ilight), 0)) / (dist * dist);
+            vec3 li = size.x * size.y * max(0, dot(-wi, ni)) * flux / (dist * dist * vplpdf);
 
             // Half vector.
             vec3 hi = (wi + wo) / 2.f;
@@ -151,7 +163,8 @@ void main() {
             color += li * (kd * (max(0, dot(wi, n))) + ks * gi);
             ++ good;
         }
-
-        fColor += color;
+        fColor += color * deltaN * deltaN;
     }
+
+    fColor = pow(fColor, vec3(1.0 / 2.2));
 }
