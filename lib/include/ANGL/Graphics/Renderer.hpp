@@ -21,6 +21,10 @@ namespace ANGL {
         float intensity;
         bool enabled = true;
 
+        PointLight() = default;
+
+        PointLight(glm::vec3 p, glm::vec3 c, float i, bool e) : position(p), color(c), intensity(i), enabled(e) {}
+
         //float boundingSphereRadius();
     };
 

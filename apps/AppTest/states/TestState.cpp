@@ -21,7 +21,7 @@ TestState::~TestState()
         << "TestState::dtor()" << std::endl;
 }
 
-void keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods)
+void TestState::keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods)
 {
     /*
     ILogger::getLogger()->getStream(SeverityDebug, "IState.cpp", __LINE__)
@@ -53,7 +53,7 @@ void TestState::init() {
     IState::init();
 
     // Override the default callbacks
-    glfwSetKeyCallback(WindowManager::getWindow(), &keyCallback);
+    glfwSetKeyCallback(WindowManager::getWindow(), (GLFWkeyfun) &keyCallback);
 }
 
 void TestState::reinit()

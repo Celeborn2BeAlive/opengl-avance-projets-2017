@@ -16,7 +16,7 @@
 
 class TestState : public ANGL::IState {
 
-    friend void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
+    static void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
 
 public:
     /**

@@ -22,7 +22,7 @@ TestState::~TestState()
         << "TestState::dtor()" << std::endl;
 }
 
-void keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods)
+void TestState::keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods)
 {
     /*
     ILogger::getLogger()->getStream(SeverityDebug, "IState.cpp", __LINE__)
@@ -45,7 +45,7 @@ void TestState::init() {
 
         mRenderer.Init();
 
-        std::string basedir = mAssetsRootPath / IApp::getApp()->getName() / "models/crytek-sponza/";
+        std::string basedir = (mAssetsRootPath / IApp::getApp()->getName() / "models/crytek-sponza/").string();
         std::string inputfile = basedir + "sponza.obj";
         ModelLoader::Load(mModel, inputfile, basedir);
         mModel.BuildBuffers();
